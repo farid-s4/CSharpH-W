@@ -1,0 +1,14 @@
+C:\Users\farid\RiderProjects\intro\intro\bin\Debug\net9.0\intro.exe
+C:\Users\farid\RiderProjects\intro\intro\bin\Debug\net9.0\intro.deps.json
+C:\Users\farid\RiderProjects\intro\intro\bin\Debug\net9.0\intro.runtimeconfig.json
+C:\Users\farid\RiderProjects\intro\intro\bin\Debug\net9.0\intro.dll
+C:\Users\farid\RiderProjects\intro\intro\bin\Debug\net9.0\intro.pdb
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\intro.AssemblyInfoInputs.cache
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\intro.AssemblyInfo.cs
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\intro.csproj.CoreCompileInputs.cache
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\intro.dll
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\refint\intro.dll
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\intro.pdb
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\intro.genruntimeconfig.cache
+C:\Users\farid\RiderProjects\intro\intro\obj\Debug\net9.0\ref\intro.dll
