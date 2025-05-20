@@ -240,7 +240,7 @@ else
 }*/
 
 //______/Task9/_______//
-int number = 0;
+/*int number = 0;
 Console.Write("Enter your number: ");
 number = int.Parse(Console.ReadLine());
 
@@ -261,4 +261,4 @@ if (sum == number)
 else
 {
     Console.WriteLine("No");
-}
+}*/

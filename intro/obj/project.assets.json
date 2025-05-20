@@ -8,30 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\farid\\.nuget\\packages\\": {},
+    "C:\\Users\\palm1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\farid\\RiderProjects\\intro\\intro\\intro.csproj",
+      "projectUniqueName": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\intro.csproj",
       "projectName": "intro",
-      "projectPath": "C:\\Users\\farid\\RiderProjects\\intro\\intro\\intro.csproj",
-      "packagesPath": "C:\\Users\\farid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\farid\\RiderProjects\\intro\\intro\\obj\\",
+      "projectPath": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\intro.csproj",
+      "packagesPath": "C:\\Users\\palm1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\farid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        "C:\\Users\\palm1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Users\\farid\\.dotnet\\library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -71,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\farid\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

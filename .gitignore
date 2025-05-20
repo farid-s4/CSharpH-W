@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+
+# Rider (если используешь JetBrains)
+.idea/
+*.sln.iml
+
+# User-specific files
+*.userprefs
+*.csproj.user
+
+# dotCover
+.idea/.idea.DotSettings
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
