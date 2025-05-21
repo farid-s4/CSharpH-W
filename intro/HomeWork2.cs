@@ -233,6 +233,7 @@ try
 catch (Exception ex)
 {
     Console.WriteLine($"Error: {ex.Message}");
+    throw;
 }
 */
 
@@ -240,7 +241,7 @@ catch (Exception ex)
 
 //task5//
 
-using System.Text.RegularExpressions;
+/*using System.Text.RegularExpressions;
 
 public class BankAccount
 {
@@ -355,4 +356,4 @@ class HomeWork2
         
 
     }
-}
+}*/
