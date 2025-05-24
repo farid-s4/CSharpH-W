@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\palm1\\source\\repos\\farid-s4\\csharph-w\\task5_hw-3\\consoleapp1\\consoleapp1\\libraryoperations\\libraryoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\libraryoperations\\libraryoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\palm1\\source\\repos\\farid-s4\\csharph-w\\task5_hw-3\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\palm1\\source\\repos\\farid-s4\\csharph-w\\task5_hw-3\\consoleapp1\\consoleapp1\\books\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\books\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\palm1\\source\\repos\\farid-s4\\csharph-w\\task5_hw-3\\consoleapp1\\consoleapp1\\librarymembers\\librarymembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2929FA2-53B3-4E19-B39F-18A568FFE870}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\librarymembers\\librarymembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\books\\Books.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\books\\Books.cs",
+              "ToolTip": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\books\\Books.cs",
+              "RelativeToolTip": "ConsoleApp1\\books\\Books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:37:43.416Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryOperations.cs",
+              "DocumentMoniker": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\libraryoperations\\LibraryOperations.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\libraryoperations\\LibraryOperations.cs",
+              "ToolTip": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\libraryoperations\\LibraryOperations.cs*",
+              "RelativeToolTip": "ConsoleApp1\\libraryoperations\\LibraryOperations.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:44:37.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryMembers.cs",
+              "DocumentMoniker": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\librarymembers\\LibraryMembers.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\librarymembers\\LibraryMembers.cs",
+              "ToolTip": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\librarymembers\\LibraryMembers.cs",
+              "RelativeToolTip": "ConsoleApp1\\librarymembers\\LibraryMembers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:41:51.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\Task5_HW-3\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0MAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:36:47.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
