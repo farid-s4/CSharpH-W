@@ -1,4 +1,4 @@
-#region Task1/Task2
+﻿#region Task1/Task2
 /*const int size = 3;
 string[,] arena = new string[size, size];
 
@@ -355,5 +355,183 @@ foreach (string morseLetter in morseLetters)
 #region Task5
 
 // in other file (C\CSharpH-W\Task5_HW)
+
+#endregion
+
+#region Task6
+
+enum TaskStatus
+{
+    NotStarted = 1,
+    InProgress,
+    Completed,
+    Deferred
+
+}
+
+class Tasks
+{
+    public string Task { get; set; }
+    public string Description { get; set; }
+    public TaskStatus Status { get; set; }
+
+    public Tasks(string task, string description)
+    {
+        Task = task;
+        Status = TaskStatus.NotStarted;
+        Description = description;
+    }
+    
+}
+
+class ToDoList
+{
+    public List<Tasks> tasks { get; set; } = new List<Tasks>();
+
+    public void CreateTask(string task, string descriprion)
+    {
+        Tasks NewTask = new Tasks(task, descriprion);
+        tasks.Add(NewTask);
+    }
+    public void RemoveTask(string TaskName)
+    {
+        tasks.RemoveAll(t => t.Task == TaskName);
+    }
+
+    public void RedacteStatus(string TaskName,int choose)
+    {
+        switch (choose)
+        {
+            case 1:
+                {
+                    for (int i = 0; i < tasks.Count; i++)
+                    {
+                        if (tasks[i].Task == TaskName)
+                        {
+                            tasks[i].Status = TaskStatus.NotStarted;
+                        }
+                    }
+                    break;
+                }
+                case 2:
+                {
+                    for (int i = 0; i < tasks.Count; i++)
+                    {
+                        if (tasks[i].Task == TaskName)
+                        {
+                            tasks[i].Status = TaskStatus.InProgress;
+                        }
+                    }
+                    break;
+                }
+            case 3:
+                {
+                    for (int i = 0; i < tasks.Count; i++)
+                    {
+                        if (tasks[i].Task == TaskName)
+                        {
+                            tasks[i].Status = TaskStatus.Completed;
+                        }
+                    }
+                    break;
+                }
+            case 4:
+                {
+                    for (int i = 0; i < tasks.Count; i++)
+                    {
+                        if (tasks[i].Task == TaskName)
+                        {
+                            tasks[i].Status = TaskStatus.Deferred;
+                        }
+                    }
+                    break;
+                }
+        }
+    }
+}
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        ToDoList myToDoList = new ToDoList();
+        bool exit = false;
+
+        while (!exit)
+        {
+            Console.WriteLine("\n--- ToDo List Menu ---");
+            Console.WriteLine("1. Create a new task");
+            Console.WriteLine("2. Remove a task");
+            Console.WriteLine("3. Change task status");
+            Console.WriteLine("4. Show all tasks");
+            Console.WriteLine("5. Exit");
+            Console.Write("Choose an option: ");
+
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    Console.Write("Enter task name: ");
+                    string taskName = Console.ReadLine();
+
+                    Console.Write("Enter task description: ");
+                    string description = Console.ReadLine();
+
+                    myToDoList.CreateTask(taskName, description);
+                    Console.WriteLine("Task created successfully.");
+                    break;
+
+                case "2":
+                    Console.Write("Enter the name of the task to remove: ");
+                    string taskToRemove = Console.ReadLine();
+
+                    myToDoList.RemoveTask(taskToRemove);
+                    Console.WriteLine("Task removed (if it existed).");
+                    break;
+
+                case "3":
+                    Console.Write("Enter the name of the task to update status: ");
+                    string taskToUpdate = Console.ReadLine();
+
+                    Console.WriteLine("Choose new status:");
+                    Console.WriteLine("1. Not Started");
+                    Console.WriteLine("2. In Progress");
+                    Console.WriteLine("3. Completed");
+                    Console.WriteLine("4. Deferred");
+
+                    if (int.TryParse(Console.ReadLine(), out int statusChoice) && statusChoice >= 1 && statusChoice <= 4)
+                    {
+                        myToDoList.RedacteStatus(taskToUpdate, statusChoice);
+                        Console.WriteLine("Task status updated.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid status choice.");
+                    }
+                    break;
+
+                case "4":
+                    Console.WriteLine("\n--- All Tasks ---");
+                    foreach (var task in myToDoList.tasks)
+                    {
+                        Console.WriteLine($"Task: {task.Task}\nDescription: {task.Description}\nStatus: {task.Status}\n");
+                    }
+                    break;
+
+                case "5":
+                    exit = true;
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid input. Please choose a number between 1 and 5.");
+                    break;
+            }
+        }
+
+        Console.WriteLine("Exiting the program...");
+    }
+}
 
 #endregion
