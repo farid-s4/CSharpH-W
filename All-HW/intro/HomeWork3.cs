@@ -1,5 +1,5 @@
 ﻿#region Task1/Task2
-const int size = 3;
+/*const int size = 3;
 string[,] arena = new string[size, size];
 
 void PrintArena()
@@ -250,6 +250,7 @@ switch (choose)
 
 
 }
+*/
 #endregion
 
 #region Task3
