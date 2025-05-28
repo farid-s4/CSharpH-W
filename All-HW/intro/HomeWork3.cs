@@ -1,5 +1,5 @@
 ﻿#region Task1/Task2
-/*const int size = 3;
+const int size = 3;
 string[,] arena = new string[size, size];
 
 void PrintArena()
@@ -30,10 +30,9 @@ bool ChangeArena(int x, int y, string player)
 
 }
 
-bool AIplayer()
+bool AIplayer(string player)
 {
     Random random = new Random();
-    string player = "0";
 
     int x, y;
 
@@ -129,15 +128,20 @@ switch (choose)
                     return;
                 }
 
-
-
-                if (player == "x")
+                if (player == "x" || player == "0")
                 {
 
                     if (ChangeArena(firstPosition, secondPosition, player))
                     {
                         PrintArena();
-                        AIplayer();
+                        if (player == "x")
+                        {
+                            AIplayer("0");
+                        }
+                        else
+                        {
+                            AIplayer("x");
+                        }
                         PrintArena();
 
                     }
@@ -196,9 +200,8 @@ switch (choose)
                 {
                     player2 = "0";
                 }
-                else
+                if (player == "0")
                 {
-                    player = "0";
                     player2 = "x";
                 }
 
@@ -246,7 +249,7 @@ switch (choose)
         }
 
 
-}*/
+}
 #endregion
 
 #region Task3
@@ -360,7 +363,7 @@ foreach (string morseLetter in morseLetters)
 
 #region Task6
 
-enum TaskStatus
+/*enum TaskStatus
 {
     NotStarted = 1,
     InProgress,
@@ -532,6 +535,6 @@ class Program
 
         Console.WriteLine("Exiting the program...");
     }
-}
+}*/
 
 #endregion

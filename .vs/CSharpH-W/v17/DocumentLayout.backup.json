@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\",
+  "WorkspaceRootPath": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\CSharpH-W\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\HomeWork3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:intro\\HomeWork3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\HomeWork3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,13 +20,11 @@
               "DocumentIndex": 0,
               "Title": "HomeWork3.cs",
               "DocumentMoniker": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\HomeWork3.cs",
-              "RelativeDocumentMoniker": "intro\\HomeWork3.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\HomeWork3.cs",
               "ToolTip": "C:\\Users\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\HomeWork3.cs",
-              "RelativeToolTip": "intro\\HomeWork3.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHkAAAAQAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\palm1\\source\\repos\\farid-s4\\CSharpH-W\\intro\\HomeWork3.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:46:35.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T19:46:35.592Z"
             }
           ]
         }
