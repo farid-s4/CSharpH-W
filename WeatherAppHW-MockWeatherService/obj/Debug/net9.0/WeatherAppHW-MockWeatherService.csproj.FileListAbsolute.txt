@@ -1,0 +1,15 @@
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\bin\Debug\net9.0\WeatherAppHW-MockWeatherService.exe
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\bin\Debug\net9.0\WeatherAppHW-MockWeatherService.deps.json
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\bin\Debug\net9.0\WeatherAppHW-MockWeatherService.runtimeconfig.json
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\bin\Debug\net9.0\WeatherAppHW-MockWeatherService.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\bin\Debug\net9.0\WeatherAppHW-MockWeatherService.pdb
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.AssemblyInfoInputs.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.AssemblyInfo.cs
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.csproj.CoreCompileInputs.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.sourcelink.json
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\refint\WeatherAppHW-MockWeatherService.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.pdb
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\WeatherAppHW-MockWeatherService.genruntimeconfig.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW-MockWeatherService\obj\Debug\net9.0\ref\WeatherAppHW-MockWeatherService.dll

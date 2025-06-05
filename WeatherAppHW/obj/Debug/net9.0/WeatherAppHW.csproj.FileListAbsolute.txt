@@ -1,0 +1,15 @@
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.AssemblyInfoInputs.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.AssemblyInfo.cs
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.csproj.CoreCompileInputs.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.sourcelink.json
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\bin\Debug\net9.0\WeatherAppHW.exe
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\bin\Debug\net9.0\WeatherAppHW.deps.json
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\bin\Debug\net9.0\WeatherAppHW.runtimeconfig.json
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\bin\Debug\net9.0\WeatherAppHW.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\bin\Debug\net9.0\WeatherAppHW.pdb
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\refint\WeatherAppHW.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.pdb
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\WeatherAppHW.genruntimeconfig.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\WeatherAppHW\obj\Debug\net9.0\ref\WeatherAppHW.dll

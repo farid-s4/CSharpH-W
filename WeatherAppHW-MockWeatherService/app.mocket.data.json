@@ -1,0 +1,17 @@
+﻿[
+  {
+    "City": "New York",
+    "WeatherInfo": "clear sky",
+    "Temperature": 295.15
+  },
+  {
+    "City": "Berlin",
+    "WeatherInfo": "scattered clouds",
+    "Temperature": 289.65
+  },
+  {
+    "City": "Sydney",
+    "WeatherInfo": "light rain",
+    "Temperature": 298.25
+  }
+]
