@@ -6,7 +6,7 @@ public class Order
     public DateTime Date { get; set; }
     public string? ItemType { get; set; }
     public int Price { get; set; }
-    public void CreateOrder(string name, string itemType, int price )
+    public Order(string name, string itemType, int price )
     {
         Name=name;
         Date=DateTime.Now;
