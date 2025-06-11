@@ -27,7 +27,7 @@ static string? LoadApiKey(string filePath)
 Console.WriteLine("Write city name: ");
 string? cityName = Console.ReadLine();
 
-string url = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={LoadApiKey("C:\\Users\\palm1\\RiderProjects\\CSharpH-W\\WeatherAppHW\\appsetting.development.json")}";
+string url = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={LoadApiKey("C:\\Users\\palm1\\RiderProjects\\CSharpH-W\\WeatherAppHW\\appsetting.development.json")}"; // microsoft configure json
 
 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
 HttpWebResponse httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();

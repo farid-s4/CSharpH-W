@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\palm1\\.nuget\\packages\\": {},
+    "C:\\Users\\sadir_fe29\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\palm1\\RiderProjects\\CSharpH-W\\OrderApp\\OrderApp.csproj",
+      "projectUniqueName": "C:\\Users\\sadir_fe29\\RiderProjects\\CSharpH-W\\OrderApp\\OrderApp.csproj",
       "projectName": "OrderApp",
-      "projectPath": "C:\\Users\\palm1\\RiderProjects\\CSharpH-W\\OrderApp\\OrderApp.csproj",
-      "packagesPath": "C:\\Users\\palm1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\palm1\\RiderProjects\\CSharpH-W\\OrderApp\\obj\\",
+      "projectPath": "C:\\Users\\sadir_fe29\\RiderProjects\\CSharpH-W\\OrderApp\\OrderApp.csproj",
+      "packagesPath": "C:\\Users\\sadir_fe29\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sadir_fe29\\RiderProjects\\CSharpH-W\\OrderApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\palm1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sadir_fe29\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -51,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -72,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
