@@ -2,6 +2,8 @@
 
 public class UserValidation : IUserValidation
 {
+    public static Guid LoginUserId;
+    public static string LoginUserName;
     private List<User> _users = new List<User>();
 
     public bool RegisterUser(string login, string password)
@@ -24,6 +26,8 @@ public class UserValidation : IUserValidation
         {
             if (user.Login == login && user.Password == password)
             {
+                LoginUserName = user.Login;
+                LoginUserId = user.Id;
                 return user;
             }
         }
@@ -31,3 +35,4 @@ public class UserValidation : IUserValidation
     }
     
 }
+
