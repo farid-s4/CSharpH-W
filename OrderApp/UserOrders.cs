@@ -1,4 +1,6 @@
-﻿namespace OrderApp;
+﻿using System.Text.Json;
+
+namespace OrderApp;
 
 public class UserOrders{
     
@@ -20,5 +22,33 @@ public class UserOrders{
                 order.ShowOrder();
             }
         }
+    }
+
+    public void RecordToFile()
+    {
+        string relativeFolderPath = "data";
+        string fileName = "ordersJson.json";
+        
+        if (!Directory.Exists(relativeFolderPath))
+        {
+            Directory.CreateDirectory(relativeFolderPath);
+        }
+        string fullPath = Path.Combine(relativeFolderPath, fileName);
+        string jsonString = JsonSerializer.Serialize(orders);
+        File.WriteAllText(fullPath, jsonString);
+    }
+
+    public void ReadToFile()
+    {
+        string relativeFolderPath = "data";
+        string fileName = "ordersJson.json";
+        
+        if (!Directory.Exists(relativeFolderPath))
+        {
+            Directory.CreateDirectory(relativeFolderPath);
+        }
+        string fullPath = Path.Combine(relativeFolderPath, fileName);
+        orders = JsonSerializer.Deserialize<List<Order>>(File.ReadAllText(fullPath));
+        
     }
 }
