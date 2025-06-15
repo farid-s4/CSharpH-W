@@ -1,54 +1,41 @@
-﻿using System.Text.Json;
+﻿using System.Runtime.Serialization.Formatters.Binary;
+using System.Text.Json;
+using System.Xml.Serialization;
 
 namespace OrderApp;
 
-public class UserOrders{
+public class UserOrders
+{
+    private List<User> _usersOrders = new List<User>();
+    private UserInit _userInit;
+    private OrdersInit _ordersInit;
     
-    private List<Order> orders = new List<Order>();
-    public void CreateOrder(string name , string item, int price)
+    public List<User> LoadOrdersForUser()
     {
-        Order o = new Order(name, item, price);
-        o.UserId = UserValidation.LoginUserId;
-        orders.Add(o);
-    }
-
-    public void ShowOrders()
-    {
+        List<User> users = _userInit.LoadUsers() ?? new List<User>();
+        List<Order> orders = _ordersInit.LoadOrders() ?? new List<Order>();
         
-        foreach (var order in orders)
+        foreach (var user in users)
         {
-            if (order.UserId == UserValidation.LoginUserId)
+
+            user.Orders.Clear();
+            
+            foreach (var order in orders)
             {
-                order.ShowOrder();
+                if (order.UserId == user.Id)
+                {
+                    user.Orders.Add(order);
+                }
             }
         }
+        return users;
+    }
+    
+
+    public void AddUser(User user)
+    {
+        _usersOrders.Add(user);
     }
 
-    public void RecordToFile()
-    {
-        string relativeFolderPath = "data";
-        string fileName = "ordersJson.json";
-        
-        if (!Directory.Exists(relativeFolderPath))
-        {
-            Directory.CreateDirectory(relativeFolderPath);
-        }
-        string fullPath = Path.Combine(relativeFolderPath, fileName);
-        string jsonString = JsonSerializer.Serialize(orders);
-        File.WriteAllText(fullPath, jsonString);
-    }
-
-    public void ReadToFile()
-    {
-        string relativeFolderPath = "data";
-        string fileName = "ordersJson.json";
-        
-        if (!Directory.Exists(relativeFolderPath))
-        {
-            Directory.CreateDirectory(relativeFolderPath);
-        }
-        string fullPath = Path.Combine(relativeFolderPath, fileName);
-        orders = JsonSerializer.Deserialize<List<Order>>(File.ReadAllText(fullPath));
-        
-    }
+    public List<User> GetUsersWithOrders() => _usersOrders;
 }

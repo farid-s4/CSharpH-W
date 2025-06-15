@@ -41,3 +41,16 @@ C:\Users\sadir_fe29\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\refint\Ord
 C:\Users\sadir_fe29\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\OrderApp.pdb
 C:\Users\sadir_fe29\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\OrderApp.genruntimeconfig.cache
 C:\Users\sadir_fe29\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\ref\OrderApp.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.AspNetCore.Http.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Microsoft.Net.Http.Headers.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\SHA256EncryptCore.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\OrderApp.csproj.AssemblyReference.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\OrderApp.csproj.Up2Date
