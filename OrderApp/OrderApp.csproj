@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="ExtendedXmlSerializer" Version="3.9.4" />
       <PackageReference Include="SHA256EncryptCore" Version="2.2.1" />
     </ItemGroup>
 

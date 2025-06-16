@@ -54,3 +54,7 @@ C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Newtonsoft.Json
 C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\SHA256EncryptCore.dll
 C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\OrderApp.csproj.AssemblyReference.cache
 C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net9.0\OrderApp.csproj.Up2Date
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\ExtendedXmlSerializer.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\LightInject.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\NReco.LambdaParser.dll
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\bin\Debug\net9.0\Sprache.dll

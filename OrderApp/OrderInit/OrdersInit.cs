@@ -28,6 +28,7 @@ public class OrdersInit
 
         _orders = LoadOrders() ?? new List<Order>();
     }
+
     
     public List<Order>? LoadOrders()
     {
@@ -64,15 +65,16 @@ public class OrdersInit
 
         try
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<User>));
-            using (FileStream stream = new FileStream(_filePath, FileMode.Open))
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Order>));
+            using (FileStream stream = new FileStream(_filePathXML, FileMode.OpenOrCreate))
             {
                 return (List<Order>)serializer.Deserialize(stream);
             }
+            
         }
         catch (Exception ex)
         {
-            return new List<Order>();
+             return new List<Order>();
         }
     }
 
@@ -80,8 +82,8 @@ public class OrdersInit
     {
         try
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<User>));
-            using (TextWriter writer = new StreamWriter(_filePath))
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Order>));
+            using (TextWriter writer = new StreamWriter(_filePathXML))
             {
                 serializer.Serialize(writer, _orders);
             }
@@ -154,21 +156,9 @@ public class OrdersInit
             SaveOrdersBin();
         }
     }
-
-    public void DeleteOrder(Guid userId)
-    {
-        var jsonOrders = LoadOrders();
-        var xmlOrders = LoadOrdersXml();
-        var binOrders = LoadOrdersBin();
-        
-        jsonOrders.RemoveAll(o => o.UserId == userId);
-        xmlOrders.RemoveAll(o => o.UserId == userId);
-        binOrders.RemoveAll(o => o.UserId == userId);
-        
-        _orders = jsonOrders; SaveOrders();
-        _orders = xmlOrders; SaveOrdersXml();
-        _orders = binOrders; SaveOrdersBin();
-    }
     
-    public List<Order> GetOrders() => new List<Order>(_orders);
+    public List<Order>? GetOrdersJson() => new List<Order>(_orders);
+    public List<Order> GetOrdersXml() =>  new List<Order>(LoadOrdersXml() ?? throw new InvalidOperationException());
+    public List<Order> GetOrdersBin() =>  new List<Order>(LoadOrdersBin() ?? throw new InvalidOperationException());
+    
 }

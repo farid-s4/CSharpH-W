@@ -1,0 +1,6 @@
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net7.0\OrderApp.csproj.AssemblyReference.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net7.0\OrderApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net7.0\OrderApp.AssemblyInfoInputs.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net7.0\OrderApp.AssemblyInfo.cs
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net7.0\OrderApp.csproj.CoreCompileInputs.cache
+C:\Users\palm1\RiderProjects\CSharpH-W\OrderApp\obj\Debug\net7.0\OrderApp.sourcelink.json

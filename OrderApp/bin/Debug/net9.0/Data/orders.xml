@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <UserId>08f8ec1a-52af-4789-98d5-b9f09dc10fd9</UserId>
+    <Name>777</Name>
+    <Date>2025-06-17T01:37:09.3509489+04:00</Date>
+    <ItemType>777</ItemType>
+    <Price>777</Price>
+  </Order>
+</ArrayOfOrder>

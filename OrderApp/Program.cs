@@ -100,7 +100,7 @@ void UserMenu(User user)
                 CreateOrder(user);
                 break;
             case "2":
-                ViewOrders(user.Id);
+                ViewOrdersMenu(user.Id);
                 break;
             case "3":
                 return;
@@ -145,29 +145,61 @@ void CreateOrder(User user)
     Console.ReadKey();
 }
 
-void ViewOrders(Guid userId)
+
+void ViewOrdersMenu(Guid userId)
+{
+    Console.Clear();
+    Console.WriteLine("=== Choose order storage format ===");
+    Console.WriteLine("1 - JSON (default format)");
+    Console.WriteLine("2 - XML (human-readable alternative)");
+    Console.WriteLine("3 - BIN (binary format)");
+
+    Console.Write("Enter the number of your choice: ");
+    string? input = Console.ReadLine();
+
+    int storageType;
+    if (!int.TryParse(input, out storageType) || storageType < 1 || storageType > 3)
+    {
+        Console.WriteLine("Invalid input. Press any key to return to the menu.");
+        Console.ReadKey();
+        return;
+    }
+
+    ViewOrders(userId, storageType);
+}
+
+
+void ViewOrders(Guid userId, int storageType)
 {
     Console.Clear();
     Console.WriteLine("=== Your Orders ===");
-    if (orderInit.GetOrders().Count == 0)
+
+    List<Order>? orders = storageType switch
+    {
+        1 => orderInit.GetOrdersJson(),
+        2 => orderInit.GetOrdersXml(),
+        3 =>  orderInit.GetOrdersBin(),
+        _ => new List<Order>()
+    };
+    
+    var userOrders = orders.Where(o => o.UserId == userId).ToList();
+
+    if (userOrders.Count == 0)
     {
         Console.WriteLine("You have no orders.");
     }
     else
     {
-        
-        foreach (var order in orderInit.GetOrders())
+        foreach (var order in userOrders)
         {
-            if (order.UserId == userId)
-            {
-                Console.WriteLine($"Name: {order.Name}");
-                Console.WriteLine($"Type: {order.ItemType}");
-                Console.WriteLine($"Price: {order.Price}");
-                Console.WriteLine($"Date: {order.Date}");
-                Console.WriteLine("-------------------");
-            }
+            Console.WriteLine($"Name: {order.Name}");
+            Console.WriteLine($"Type: {order.ItemType}");
+            Console.WriteLine($"Price: {order.Price}");
+            Console.WriteLine($"Date: {order.Date}");
+            Console.WriteLine("-------------------");
         }
     }
-    
+
     Console.ReadKey();
 }
+

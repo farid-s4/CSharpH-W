@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "ExtendedXmlSerializer": {
+              "target": "Package",
+              "version": "[3.9.4, )"
+            },
             "SHA256EncryptCore": {
               "target": "Package",
               "version": "[2.2.1, )"
