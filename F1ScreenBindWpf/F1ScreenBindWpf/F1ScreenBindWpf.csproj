@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="KeyboardHookManager" Version="1.1.0" />
+      <PackageReference Include="KeyboardHookManager.Core" Version="1.1.2" />
+      <PackageReference Include="MouseKeyHook" Version="5.7.1" />
+    </ItemGroup>
+
+</Project>

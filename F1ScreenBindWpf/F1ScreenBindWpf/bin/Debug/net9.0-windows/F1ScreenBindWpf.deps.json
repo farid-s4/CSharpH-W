@@ -1,0 +1,93 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "F1ScreenBindWpf/1.0.0": {
+        "dependencies": {
+          "KeyboardHookManager": "1.1.0",
+          "KeyboardHookManager.Core": "1.1.2",
+          "MouseKeyHook": "5.7.1"
+        },
+        "runtime": {
+          "F1ScreenBindWpf.dll": {}
+        }
+      },
+      "KeyboardHookManager/1.1.0": {
+        "runtime": {
+          "lib/KeyboardHookManager.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "KeyboardHookManager.Core/1.1.2": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/KeyboardHookManager.Core.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "MouseKeyHook/5.7.1": {
+        "runtime": {
+          "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll": {
+            "assemblyVersion": "5.7.1.0",
+            "fileVersion": "5.7.1.0"
+          }
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "F1ScreenBindWpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeyboardHookManager/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CVRX1UW7tHNghlUvnDN4w60yanQ011mck4NoDKxz8/yd2O33IteGoS5spvYUDHQ/cOj83KrRK0ifDFenA1Neig==",
+      "path": "keyboardhookmanager/1.1.0",
+      "hashPath": "keyboardhookmanager.1.1.0.nupkg.sha512"
+    },
+    "KeyboardHookManager.Core/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xXzubATx3LnqNnK+FE0do0dV7dr27EP1PPBwkTzWottWTYQFOSBSXKxae28hjES0wQh4VsZK3jWmXHFq6ADmlQ==",
+      "path": "keyboardhookmanager.core/1.1.2",
+      "hashPath": "keyboardhookmanager.core.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "MouseKeyHook/5.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c0VhB6cbcOpMOcoCQmvPMVqxaH76S4IPHwpbCIY7XKUNimdj9+81rX+Evnu5O53xYgUvdD7g0qmlVeZP2wGCnA==",
+      "path": "mousekeyhook/5.7.1",
+      "hashPath": "mousekeyhook.5.7.1.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    }
+  }
+}
