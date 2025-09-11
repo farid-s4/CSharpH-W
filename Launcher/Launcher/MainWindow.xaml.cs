@@ -28,7 +28,7 @@ public partial class MainWindow : Window
         
         var startInfo = new ProcessStartInfo
         {
-            FileName = @"C:\Users\farid\RiderProjects\Launcher\Calc\bin\Debug\net9.0\Calc.exe",
+            FileName = @"C:\Users\farid\RiderProjects\CSharpH-W\Launcher\Calc\bin\Debug\net9.0\calc.exe",
             Arguments = $"\"{argument}\"",
         };
         

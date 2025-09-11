@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\farid\\RiderProjects\\Launcher\\Calc\\Calc.csproj",
+      "projectUniqueName": "C:\\Users\\farid\\RiderProjects\\CSharpH-W\\Launcher\\Calc\\Calc.csproj",
       "projectName": "Calc",
-      "projectPath": "C:\\Users\\farid\\RiderProjects\\Launcher\\Calc\\Calc.csproj",
+      "projectPath": "C:\\Users\\farid\\RiderProjects\\CSharpH-W\\Launcher\\Calc\\Calc.csproj",
       "packagesPath": "C:\\Users\\farid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\farid\\RiderProjects\\Launcher\\Calc\\obj\\",
+      "outputPath": "C:\\Users\\farid\\RiderProjects\\CSharpH-W\\Launcher\\Calc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
