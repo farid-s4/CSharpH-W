@@ -1,6 +1,7 @@
-﻿using System.Collections.ObjectModel;
+﻿﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Windows;
 using System.Windows.Input;
 using System.Windows.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -12,6 +13,8 @@ namespace TaskMeneger.ViewModel;
 public class ProcessViewModel : ObservableObject
 {
     private ObservableCollection<ProcessModel> _processes =  new ObservableCollection<ProcessModel>();
+    public ObservableCollection<CoreModel> _coreModels = new ObservableCollection<CoreModel>();
+    
     private DispatcherTimer _timer;
     
     private string _searchText;
@@ -36,6 +39,12 @@ public class ProcessViewModel : ObservableObject
         set => SetProperty(ref _processes, value);
     }
 
+    public ObservableCollection<CoreModel> Cores
+    {
+        get => _coreModels;
+        set => SetProperty(ref _coreModels, value);
+    }
+    
     private string _selectedPriority;
 
     public string SelectedPriority
@@ -46,9 +55,15 @@ public class ProcessViewModel : ObservableObject
 
     public ProcessViewModel()
     {
+        int cpuCount = Environment.ProcessorCount;
+        
         FindProcessCommand = new RelayCommand(FindProcess);
         ProcessKillCommand = new RelayCommand(ProcessKill);
         PrioritySaveCommand = new RelayCommand(PrioritySave);
+        CoreApplyCommand = new RelayCommand(CoreApply);
+        Cores = new ObservableCollection<CoreModel>(
+            Enumerable.Range(0, cpuCount).Select(i => new CoreModel(i))
+        );
             
         Processes = new ObservableCollection<ProcessModel>();
         
@@ -58,6 +73,37 @@ public class ProcessViewModel : ObservableObject
         };
         _timer.Tick += (s, e) => UpdateProcesses();
         _timer.Start();
+    }
+    
+    public int[] GetSelectedCores()
+    {
+        return Cores.Where(c => c.IsChecked).Select(c => c.Id).ToArray();
+    }
+
+    private void CoreApply()
+    {
+        var processes = Process.GetProcesses();
+        
+        var selectedCores = GetSelectedCores();
+        if (!selectedCores.Any())
+        {
+            MessageBox.Show("Выберите хотя бы одно ядро!");
+            return;
+        }
+
+        long mask = 0;
+        foreach (var core in selectedCores)
+            mask |= 1L << core;
+
+        foreach (var p in processes)
+        {
+            if (p.Id == SelectedProcess?.Id)
+            {
+                p.ProcessorAffinity = (IntPtr)mask;
+            }
+        }
+
+        MessageBox.Show($"Процесс запущен на ядрах: {string.Join(", ", selectedCores)}");
     }
 
     private void PrioritySave()
@@ -116,13 +162,10 @@ public class ProcessViewModel : ObservableObject
             }
         }
     }
-
-
-
     public ICommand FindProcessCommand { get; }
     public ICommand ProcessKillCommand { get; }
     public ICommand PrioritySaveCommand { get; }
-    
+    public ICommand CoreApplyCommand { get; }
     private void UpdateProcesses()
     {
         var currentProcesses = Process.GetProcesses();

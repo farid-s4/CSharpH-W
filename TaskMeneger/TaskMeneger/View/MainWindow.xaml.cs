@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Windows;
+using System.Windows.Controls;
 using TaskMeneger.Model;
 using TaskMeneger.ViewModel;
 
@@ -15,5 +16,11 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         DataContext = new ProcessViewModel();
+        
+    }
+    private void MyListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+        if (TasksList.SelectedItem != null)
+            TasksList.ScrollIntoView(TasksList.SelectedItem);
     }
 }

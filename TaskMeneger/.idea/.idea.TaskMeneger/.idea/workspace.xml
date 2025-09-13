@@ -8,38 +8,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e20478-feac-44d6-82aa-5e32c7cd5fe9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/Calc.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/Calc.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/Debug/net9.0/Calc.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Calc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Calc/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/bin/Debug/net9.0-windows/Launcher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/bin/Debug/net9.0-windows/Launcher.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/bin/Debug/net9.0-windows/Launcher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/bin/Debug/net9.0-windows/Launcher.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/bin/Debug/net9.0-windows/Launcher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/bin/Debug/net9.0-windows/Launcher.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/Launcher_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/ref/Launcher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/ref/Launcher.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/refint/Launcher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Debug/net9.0-windows/refint/Launcher.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/Launcher.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/Launcher.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Launcher/Launcher/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Launcher/Launcher/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaskMeneger/Model/CoreModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskMeneger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskMeneger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/View/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/View/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/View/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/View/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/ViewModel/ProcessViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/ViewModel/ProcessViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/bin/Debug/net9.0-windows/TaskMeneger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/bin/Debug/net9.0-windows/TaskMeneger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/bin/Debug/net9.0-windows/TaskMeneger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/bin/Debug/net9.0-windows/TaskMeneger.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/bin/Debug/net9.0-windows/TaskMeneger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/bin/Debug/net9.0-windows/TaskMeneger.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/TaskMeneger_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/View/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/View/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/ref/TaskMeneger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/ref/TaskMeneger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/refint/TaskMeneger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/Debug/net9.0-windows/refint/TaskMeneger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskMeneger/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMeneger/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +45,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "farid-s4"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;farid-s4&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/farid-s4/CSharpH-W.git",
-    "accountId": "770c26cf-d101-45a6-a95e-e1dd881e96c7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/farid-s4/CSharpH-W.git&quot;,
+    &quot;accountId&quot;: &quot;770c26cf-d101-45a6-a95e-e1dd881e96c7&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/674b57788c595e3828b668b2a7d978c6e32dce6565e6ebf26775e2a036/ListView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82d13412f8e9e63b347cc85a77b51771272e82b2a593cd7418ed492b93456/FrameworkElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e73b3c2842646ef0921faa54253614d308a2eb4f89328fa1ab992b424c7ae3/Selector.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -76,21 +70,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.TaskMeneger.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.TaskMeneger.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TaskMeneger" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -127,6 +121,10 @@
       <workItem from="1757586266044" duration="1805000" />
       <workItem from="1757588191776" duration="23760000" />
       <workItem from="1757616693174" duration="14000" />
+      <workItem from="1757633332518" duration="146000" />
+      <workItem from="1757767440189" duration="104000" />
+      <workItem from="1757774997926" duration="4744000" />
+      <workItem from="1757779788880" duration="18000" />
     </task>
     <servers />
   </component>

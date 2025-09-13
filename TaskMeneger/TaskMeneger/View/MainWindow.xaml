@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TaskMeneger"
         xmlns:viewModel="clr-namespace:TaskMeneger.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
@@ -24,6 +23,7 @@
         <ListView Grid.Row="1" Grid.Column="0" Background="#191919" 
                   ItemsSource="{Binding Processes}" 
                   SelectedItem="{Binding SelectedProcess}" 
+                  SelectionChanged="MyListView_SelectionChanged"
                   Name="TasksList">
             <ListView.Resources>
                 <Style TargetType="{x:Type GridViewColumnHeader}">
@@ -70,6 +70,7 @@
             </ListView.View>
         </ListView>
         <TextBlock Grid.Column="1" Grid.Row="1" Height="25" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="15" >Приоритет</TextBlock>
+        
         <StackPanel Grid.Column="1"  Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,0">
             <ComboBox SelectedValue="{Binding SelectedPriority, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                       HorizontalContentAlignment="Center"
@@ -89,10 +90,25 @@
                 <ComboBoxItem Content="Real Time" Background="#2D2D30" Foreground="White"/>
             </ComboBox>
         </StackPanel>
+        
+        <StackPanel Grid.Column="1"  Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="1" Margin="15,130,0,0">
+            <ScrollViewer Width="240" Height="190">
+                <ItemsControl ItemsSource="{Binding Cores}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <CheckBox Content="{Binding Name}" 
+                                      IsChecked="{Binding IsChecked, Mode=TwoWay}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+            
+        </StackPanel>
+        <Button Grid.Row="1" Grid.Column="1"  FontSize="12" VerticalContentAlignment="Center" Background="Gray" Height="20" Width="100" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,25,20,67" Command="{Binding CoreApplyCommand}">Применить</Button>
         <Button Grid.Row="1" Grid.Column="1"  FontSize="15" VerticalContentAlignment="Center" Background="Gray" Height="30" Width="220" VerticalAlignment="Top" Margin="0,80,0,25" Command="{Binding PrioritySaveCommand}">Применить для выделенного</Button>
         <TextBlock Grid.Row="0" Width="50" FontSize="15" HorizontalAlignment="Left" Grid.Column="0" VerticalAlignment="Center" Margin="15, 0,0, 0">Поиск: </TextBlock>
         <Button Grid.Row="0" Grid.Column="1" FontSize="15" VerticalContentAlignment="Center" Background="Gray" Height="30" Width="150" Command="{Binding FindProcessCommand}">Найти или сбросить</Button>
-        <Button Grid.Row="1" Grid.Column="1"  FontSize="15" VerticalContentAlignment="Center" Background="Gray" Height="30" Width="150" VerticalAlignment="Bottom" Margin="0,25,0,25" Command="{Binding ProcessKillCommand}">Завершить процесс</Button>
         <TextBox  Grid.Row="0" Grid.Column="0" Background="Gray" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"  FontSize="15" Width="250" VerticalContentAlignment="Center"  Height="30" Margin="5,0,0,0" HorizontalAlignment="Center"></TextBox>
+        <Button Grid.Row="1" Grid.Column="1"  FontSize="15" VerticalContentAlignment="Center" Background="Gray" Height="30" Width="150" VerticalAlignment="Bottom" Margin="0,25,0,25" Command="{Binding ProcessKillCommand}">Завершить процесс</Button>
     </Grid>
 </Window>
