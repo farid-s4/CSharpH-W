@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7StFBStEGv4=",
+  "dgSpecHash": "7pQS49ZXuco=",
   "success": true,
-  "projectFilePath": "C:\\Users\\farid\\RiderProjects\\F1ScreenBindWpf\\F1ScreenBindWpf\\F1ScreenBindWpf.csproj",
+  "projectFilePath": "C:\\Users\\farid\\RiderProjects\\CSharpH-W\\F1ScreenBindWpf\\F1ScreenBindWpf\\F1ScreenBindWpf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farid\\.nuget\\packages\\keyboardhookmanager\\1.1.0\\keyboardhookmanager.1.1.0.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\keyboardhookmanager.core\\1.1.2\\keyboardhookmanager.core.1.1.2.nupkg.sha512",
